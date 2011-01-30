@@ -14,7 +14,7 @@ body{
 
 header, footer{
 	width:$width;
-	height:50px;
+	height:75px;
 	margin:0px auto;
 }
 header{
@@ -56,11 +56,12 @@ footer{
 
 #explain{
 	width:100%;
-	margin:0px auto ($white-space * 2) auto;
+	margin:0px auto ($white-space * 3) auto;
 	h1{
 		margin:0px 0px $white-space 0px;
 		font-family:$headline;
 		font-size:1.5em;
+		font-weight:800;
 	}
 	p{
 		line-height:20px;
@@ -76,7 +77,7 @@ footer{
 		float:left;
 		width:($width / 3) - $pic-space;
 		margin:0px $pic-space $pic-space 0px;
-		height:100px;
+		height:($width / 4) - $pic-space;
 		background-color:$light-grey;
 	}
 }

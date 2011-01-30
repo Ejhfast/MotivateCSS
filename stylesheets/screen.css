@@ -64,14 +64,14 @@ a img {
 
 /* line 9, ../src/screen.scss */
 body {
-  font-family: georgia;
-  font-size: 16;
+  font-family: helvetica;
+  font-size: 18;
 }
 
 /* line 15, ../src/screen.scss */
 header, footer {
   width: 800;
-  height: 50px;
+  height: 75px;
   margin: 0px auto;
 }
 
@@ -124,35 +124,36 @@ footer #address {
 /* line 57, ../src/screen.scss */
 #explain {
   width: 100%;
-  margin: 0px auto 40 auto;
+  margin: 0px auto 60 auto;
 }
 /* line 60, ../src/screen.scss */
 #explain h1 {
   margin: 0px 0px 20 0px;
-  font-family: georgia;
+  font-family: helvetica;
   font-size: 1.5em;
+  font-weight: 800;
 }
-/* line 65, ../src/screen.scss */
+/* line 66, ../src/screen.scss */
 #explain p {
   line-height: 20px;
   margin: 0px 0px 5px 5px;
 }
 
-/* line 71, ../src/screen.scss */
+/* line 72, ../src/screen.scss */
 #gallery {
   width: 100%;
   margin: 0px auto 40 auto;
 }
-/* line 75, ../src/screen.scss */
+/* line 76, ../src/screen.scss */
 #gallery #pic {
   float: left;
   width: 260.667;
   margin: 0px 6 6 0px;
-  height: 100px;
+  height: 194;
   background-color: #a5a5a5;
 }
 
-/* line 84, ../src/screen.scss */
+/* line 85, ../src/screen.scss */
 #clear {
   clear: both;
 }
