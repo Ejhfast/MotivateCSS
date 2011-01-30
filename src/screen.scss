@@ -1,0 +1,88 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "base";
+
+body{
+	font-family:$family;
+	font-size:$fs;
+	
+}
+
+header, footer{
+	width:$width;
+	height:50px;
+	margin:0px auto;
+}
+header{
+	margin-top:2px;
+	margin-bottom:25px;
+	img{
+		position:relative;
+	}
+	#login{
+		float:right;
+		margin:15px 20px 0px 0px;
+		font-family:$altf;
+		font-size:.8em;
+	}
+}
+footer{
+	font-size:.8em;
+	font-family:$altf;
+	color:#646464;
+	ul{
+		float:left;
+		li{
+			float:left;
+			margin: 0px 10px 0px 0px;
+			padding:0px 10px 0px 0px;
+			border-right:1px solid $light-grey;
+		}
+	}
+	#address{
+		float:right;
+		margin:0px 20px 0px 0px;
+	}
+}
+
+#content{
+	width:$width;
+	margin:0px auto;
+}
+
+#explain{
+	width:100%;
+	margin:0px auto ($white-space * 2) auto;
+	h1{
+		margin:0px 0px $white-space 0px;
+		font-family:$headline;
+		font-size:1.5em;
+	}
+	p{
+		line-height:20px;
+		margin:0px 0px 5px 5px;
+	}
+}
+
+#gallery{
+	width:100%;
+	margin:0px auto ($white-space*2) auto;
+	
+	#pic{
+		float:left;
+		width:($width / 3) - $pic-space;
+		margin:0px $pic-space $pic-space 0px;
+		height:100px;
+		background-color:$light-grey;
+	}
+}
+
+#clear{
+	clear:both;
+}
+
+
